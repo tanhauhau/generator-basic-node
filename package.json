@@ -1,0 +1,40 @@
+{
+  "name": "generator-node-basic",
+  "version": "0.0.0",
+  "description": "Generates a basic node.js package",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "keywords": [
+    "yeoman-generator",
+    "nodejs",
+    "generator",
+    "npm",
+    "travis",
+    "readme",
+    "git",
+    "license"
+  ],
+  "author": "Tan Li Hau <lhtan93@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "generator-travis": "^1.2.4",
+    "left-pad": "^1.0.2",
+    "license-generator": "github:tanhauhau/license-generator",
+    "mustache": "^2.2.1",
+    "yeoman-generator": "^0.22.6",
+    "yosay": "^1.1.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanhauhau/generator-basic-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanhauhau/generator-basic-node/issues"
+  },
+  "homepage": "https://github.com/tanhauhau/generator-basic-node#readme"
+}
